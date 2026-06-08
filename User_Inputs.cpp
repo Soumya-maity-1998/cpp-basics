@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
 
-    int age; // age is an integer variable
-    cout << " Enter your age: "; 
-    cin >> age; 
+    string name; // string input
+    cout << " Enter your name: "; 
+    getline(cin, name); // for a line input  
 
-    cout << "You Entered " << age << " by yourself" << endl;
+    cout << "Hello " << name;
     return 0; 
 }
