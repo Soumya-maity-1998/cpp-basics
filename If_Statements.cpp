@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std; 
+
+// 'and' == &&, 'or' = ||
+
+int main()
+{
+    bool isMale = true;
+    bool isTall = false; 
+    if (isMale && isTall){ 
+        cout << "You are a tall male.";
+    } else if(isMale && !isTall) {
+        cout << "You are a short male.";
+    } else if (!isMale && isTall) {
+        cout << "You are tall but not a male";
+    } else {
+        cout << "Your are not a male and not tall";
+    }
+    return 0;
+}
