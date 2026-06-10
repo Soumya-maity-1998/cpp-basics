@@ -11,6 +11,7 @@ int main()
 {
     double answer = cube(5.1);
     cout << answer << endl;
+    cout << cube(3);
     
 
     return 0;
